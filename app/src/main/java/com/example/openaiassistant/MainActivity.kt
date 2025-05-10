@@ -58,7 +58,7 @@ class MainActivity : ComponentActivity() {
         settings.javaScriptCanOpenWindowsAutomatically = true
         settings.cacheMode = WebSettings.LOAD_DEFAULT
 
-        webView.loadUrl("https://https://openai-assistant-jmg.streamlit.app/")
+        webView.loadUrl("https://openai-assistant-jmg.streamlit.app/")
     }
 
     private val filePickerLauncher = registerForActivityResult(
